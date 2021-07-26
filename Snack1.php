@@ -27,9 +27,7 @@ Olimpia Milano - Cantù | 55-60 -->
 
 $lunghezza = count($partite);
 
- for ($i = 0; $i < $lunghezza; $i++) {
-    echo $partite [$i]['squadra di casa'];
- }
+ 
 
 ?>
 
@@ -53,15 +51,7 @@ $lunghezza = count($partite);
         </div>
     <?php } ?>
 
-     <div>
-
-     <ul>
-
-     </ul>
-         <?php
-            
-         ?>
-     </div>
+    
 
 </body>
 </html>
