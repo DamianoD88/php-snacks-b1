@@ -18,6 +18,8 @@ $age = $_GET ['eta'];
     <title>Document</title>
 </head>
 <body>
+
+    <a href="dati.php?"><Link></Link></a>
     <h2>
         Nome: <?php echo $nome; ?>
     </h2>
