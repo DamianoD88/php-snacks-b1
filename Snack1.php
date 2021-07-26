@@ -2,8 +2,20 @@
 Creiamo un array contenente le partite di basket di un’ipotetica tappa del calendario. Ogni array avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite. Stampiamo a schermo tutte le partite con questo schema.
 Olimpia Milano - Cantù | 55-60 -->
 <?php
- $tappe_partite = [
-     
+ $partite = [
+     // array multidimensionali
+     [
+        'partita 1' => 'Boston Celtics - Brooklyn Nets'
+        'risultati' => '|'.'55-60'
+     ],
+     [
+        'partita 2' => 'New York Knicks - Philadelphia Sixers'
+        'risultati' => '|'.'43-32'
+     ],
+     [
+        'partita 3' => 'Chicago Bulls - Cleveland Cavaliers'
+        'risultati' => '|'.'60-32'
+     ],
  ]
 ?>
 
