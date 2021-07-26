@@ -5,16 +5,23 @@ Olimpia Milano - Cantù | 55-60 -->
  $partite = [
      // array multidimensionali
      [
-        'partita 1' => 'Boston Celtics - Brooklyn Nets'
-        'risultati' => '|'.'55-60'
+        'squadra di casa' => 'Boston Celtics - ',
+        'squadra ospite' => ' Brooklyn Nets',
+        'punti squadra di casa' => ' 55',
+        'punti ospite' => '- 60'
      ],
      [
-        'partita 2' => 'New York Knicks - Philadelphia Sixers'
-        'risultati' => '|'.'43-32'
+
+        'squadra di casa' => 'New York Knicks - ',
+        'squadra ospite' => ' Philadelphia Sixers',
+        'punti squadra di casa' => ' 43',
+        'punti ospite' => '- 32'
      ],
      [
-        'partita 3' => 'Chicago Bulls - Cleveland Cavaliers'
-        'risultati' => '|'.'60-32'
+        'squadra di casa' => 'Chicago Bulls - ',
+        'squadra ospite' => ' Cleveland Cavaliers',
+        'punti squadra di casa' => ' 60',
+        'punti ospite' => '- 32'
      ],
  ]
 ?>
