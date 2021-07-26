@@ -19,11 +19,18 @@ Olimpia Milano - Cantù | 55-60 -->
      ],
      [
         'squadra di casa' => 'Chicago Bulls - ',
-        'squadra ospite' => ' Cleveland Cavaliers',
+        'squadra di casa' => ' Cleveland Cavaliers',
         'punti squadra di casa' => ' 60',
         'punti ospite' => '- 32'
      ],
- ]
+    ];
+
+$lunghezza = count($partite);
+
+ for ($i = 0; $i < $lunghezza; $i++) {
+    echo $partite [$i]['squadra di casa'];
+ }
+
 ?>
 
 <!DOCTYPE html>
@@ -36,5 +43,27 @@ Olimpia Milano - Cantù | 55-60 -->
 </head>
 <body>
     
+    <?php for($i = 0; $i < $lunghezza; $i++){ ?>
+        <div>
+            <ul>
+                <li> <?php echo $partite [$i]['squadra di casa']; ?> </li>
+                <li> <?php echo $partite [$i]['squadra di casa']; ?> </li>
+                <li> <?php echo $partite [$i]['punti squadra di casa']; ?> </li>
+                <li> <?php echo $partite [$i]['punti ospite']; ?> </li>
+            </ul>
+            
+        </div>
+    <?php } ?>
+
+     <div>
+
+     <ul>
+
+     </ul>
+         <?php
+            
+         ?>
+     </div>
+
 </body>
 </html>
